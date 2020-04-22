@@ -13,7 +13,7 @@ public class KongaOrderTests {
     public void setUp() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("https://www.konga.com/category/konga-fashion-1259");
+        driver.get("https://www.konga.com/");
         Thread.sleep(5000);
 
         //1. maximize the window
